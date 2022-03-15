@@ -1,0 +1,30 @@
+.header {
+  width: 100%;
+  height: 790px;
+  // padding-bottom: 50px;
+  background-image: url('../rasm/header-desk.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 1390px 790px ;
+}
+.header__nav {
+  padding-top: 40px;
+  // height: 770px;
+  display: flex;
+  align-items: center;
+}
+.header__logo-link{
+  display: inline-block;
+}
+.header__logo-img {
+  width: 143px;
+  height: 59px;
+  display: block;
+}
+.header__list {
+  margin-left: 70px;
+  display: flex;
+}
+.header__item ~ .header__item {
+  margin-left: 30px;
+}
